@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 800px){
+.textanimation{
+    animation: leftToRight 10s infinite linear;
+}
+}
+@keyframes leftToRight{
+    from{
+        transform: translateX(50%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
